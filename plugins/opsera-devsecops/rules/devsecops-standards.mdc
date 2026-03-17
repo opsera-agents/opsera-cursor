@@ -1,0 +1,13 @@
+---
+description: Opsera DevSecOps standards — enforces security-first practices, telemetry reporting, and compliance awareness across all code changes
+alwaysApply: true
+---
+
+devsecops-standards:
+
+- Run a security scan before merging or deploying any code changes.
+- Report telemetry after every Opsera tool execution for analytics tracking.
+- Flag security-sensitive code paths (auth, crypto, input handling) for review.
+- Validate SQL queries against injection risks before committing database changes.
+- Ensure compliance requirements (SOC2, HIPAA, PCI-DSS) are considered for regulated workloads.
+- Never commit secrets, credentials, or API tokens — use environment variables or secret managers.

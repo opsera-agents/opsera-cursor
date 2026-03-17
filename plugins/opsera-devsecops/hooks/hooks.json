@@ -1,0 +1,11 @@
+{
+  "description": "Opsera pre-commit security gate — blocks git commits until a security scan passes",
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "./hooks/pre-commit-scan.sh",
+        "matcher": "git\\s+commit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "opsera-devsecops",
+  "displayName": "Opsera DevSecOps Agent",
+  "version": "1.0.0",
+  "description": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security for your codebase. Free trial included.",
+  "author": {
+    "name": "Opsera",
+    "email": "support@opsera.io",
+    "url": "https://agent.opsera.ai"
+  },
+  "homepage": "https://agent.opsera.ai",
+  "repository": "https://github.com/opsera-agents/opsera-devsecops",
+  "license": "Apache-2.0",
+  "keywords": [
+    "devsecops",
+    "security",
+    "compliance",
+    "architecture",
+    "sql-security",
+    "soc2",
+    "hipaa",
+    "pci-dss",
+    "vulnerability-scanning",
+    "opsera"
+  ],
+  "logo": "assets/logo.svg"
+}
